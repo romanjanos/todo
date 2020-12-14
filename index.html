@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="font-awesome-4.7.0 (1)/font-awesome-4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="todo__container">
+
+
+        <div class="todo__header">
+            <h2 class="display__day"></h2>
+            <h2 class="display__date"></h2>
+            <form class="input__box">
+                <input class="input" type="text" placeholder="Take the garbage out">
+                <button type="submit" class="add">
+                    <i class="fa fa-plus"></i>
+                </button>
+            </form>
+        </div>
+
+        <p>You have <span class="todo__number">0</span> pending items.</p>
+
+        <div class="todo__list--pending"></div>
+
+
+        <div class="todo__list--done hide"></div>
+
+        <div class="todo__footer">
+            <button class="footer__btn--complete">Show Complete</button>
+            <button class="footer__btn--clear">Clear All</button>
+        </div>
+    </div>
+
+    <script src="todo.js"></script>
+</body>
+
+</html>
